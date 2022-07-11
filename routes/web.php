@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 //Start
-Route::get('/threeforces.com.br/start', function () {
+Route::get('/start', function () {
     return view('start.start_Index');
 });
 
