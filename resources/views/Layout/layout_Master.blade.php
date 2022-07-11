@@ -6,12 +6,12 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
         <script src="https://kit.fontawesome.com/3a5cec123c.js" crossorigin="anonymous"></script>
-        @yield('title')
+        @yield('layout_Title')
     </head>
     <body>
-        @include('layout.LayoutHeader')
-        @yield('LayoutBody')
-        @include('layout.LayoutFooter')
+        @include('layout.layout_Header')
+        @yield('layout_Body')
+        @include('layout.layout_Footer')
     </body>
 </html>
 

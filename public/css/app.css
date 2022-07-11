@@ -623,6 +623,9 @@ video {
 .max-w-6xl {
   max-width: 72rem;
 }
+.grid-flow-col {
+  grid-auto-flow: column;
+}
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -686,16 +689,17 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(237 233 254 / var(--tw-bg-opacity));
 }
-.bg-gradient-to-r {
-  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+.bg-zinc-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(63 63 70 / var(--tw-bg-opacity));
 }
-.from-violet-500 {
-  --tw-gradient-from: #8b5cf6;
-  --tw-gradient-to: rgb(139 92 246 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+.bg-zinc-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(212 212 216 / var(--tw-bg-opacity));
 }
-.to-violet-900 {
-  --tw-gradient-to: #4c1d95;
+.bg-zinc-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 244 245 / var(--tw-bg-opacity));
 }
 .p-6 {
   padding: 1.5rem;
@@ -705,9 +709,6 @@ video {
 }
 .p-1 {
   padding: 0.25rem;
-}
-.p-20 {
-  padding: 5rem;
 }
 .py-4 {
   padding-top: 1rem;
@@ -776,6 +777,14 @@ video {
   --tw-text-opacity: 1;
   color: rgb(76 29 149 / var(--tw-text-opacity));
 }
+.text-zinc-50 {
+  --tw-text-opacity: 1;
+  color: rgb(250 250 250 / var(--tw-text-opacity));
+}
+.text-zinc-900 {
+  --tw-text-opacity: 1;
+  color: rgb(24 24 27 / var(--tw-text-opacity));
+}
 .underline {
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
@@ -808,6 +817,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(76 29 149 / var(--tw-bg-opacity));
 }
+.hover\:bg-zinc-900:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 24 27 / var(--tw-bg-opacity));
+}
 .hover\:text-2xl:hover {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -815,6 +828,10 @@ video {
 .hover\:text-violet-900:hover {
   --tw-text-opacity: 1;
   color: rgb(76 29 149 / var(--tw-text-opacity));
+}
+.hover\:text-zinc-900:hover {
+  --tw-text-opacity: 1;
+  color: rgb(24 24 27 / var(--tw-text-opacity));
 }
 @media (prefers-color-scheme: dark) {
 
